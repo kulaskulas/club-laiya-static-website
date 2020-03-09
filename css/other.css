@@ -1,0 +1,141 @@
+@media only screen and (min-width: 1024px) {
+	.sub-lines
+	{
+		border-bottom: 1px solid #31BBD8; 
+		width: 449px; 
+		margin-top: 15px
+	}
+
+	.btn
+	{
+		z-index: 1;
+		position: absolute;
+		top: 80%;
+		left: -20%;
+		box-shadow: 0px 10px 20px rgba(0, 51, 73, 0.15);
+		padding: 15px 42px;
+		width: 200px;
+		height: 44px;
+		background: #FFFFFF;
+		border-radius: 0;
+		font-family: Gotham-font;
+		font-style: normal;
+		font-weight: lighter;
+	}
+
+	.right-arrow
+	{
+		width: 50px; 
+	}
+	.abt-title
+	{
+		margin-top: -3px;
+		font-size: 12px;
+	}
+
+	.l-btn
+	{
+		z-index: 1;
+		position: absolute;
+		top: 80%;
+		left: -25%;
+		box-shadow: 0px 10px 20px rgba(0, 51, 73, 0.15);
+		padding: 15px 42px;
+		width: 230px;
+		height: 44px;
+		background: #FFFFFF;
+		border-radius: 0;
+		font-family: Gotham-font;
+		font-style: normal;
+		font-weight: lighter;
+	}
+
+	.l-right-arrow
+	{
+		width: 50px;
+		margin-left: 10px; 
+	}
+	.l-title
+	{
+		margin-top: -3px;
+		font-size: 12px;
+	}
+	.sec-title
+	{
+		margin-top: 40px;
+	}
+
+	.btn-lwb
+	{
+		z-index: 1;
+		position: absolute;
+		top: 80%;
+		left: -20%;
+		box-shadow: 0px 10px 20px rgba(0, 51, 73, 0.15);
+		padding: 15px 42px;
+		width: 200px;
+		height: 44px;
+		background: #FFFFFF;
+		border-radius: 0;
+		font-family: Gotham-font;
+		font-style: normal;
+		font-weight: lighter;
+	}
+
+}
+
+@media only screen and (max-width: 664px) {
+	.btn
+	{
+		z-index: 1;
+		position: absolute;
+		top: 80%;
+		left: 3%;
+		box-shadow: 0px 10px 20px rgba(0, 51, 73, 0.15);
+		padding: 15px 42px;
+		width: 190px;
+		height: 44px;
+		background: #FFFFFF;
+		border-radius: 0;
+		font-family: Gotham-font;
+		font-style: normal;
+		font-weight: lighter;
+	}
+
+	.right-arrow
+	{
+		width: 50px; 
+	}
+	.abt-title
+	{
+		margin-top: -3px;
+		font-size: 12px;
+	}
+
+	.l-btn
+	{
+		z-index: 1;
+		position: absolute;
+		top: -20%;
+		left: 3%;
+		box-shadow: 0px 10px 20px rgba(0, 51, 73, 0.15);
+		padding: 15px 42px;
+		width: 230px;
+		height: 44px;
+		background: #FFFFFF;
+		border-radius: 0;
+		font-family: Gotham-font;
+		font-style: normal;
+		font-weight: lighter;
+	}
+
+	.l-right-arrow
+	{
+		width: 50px;
+	}
+	.l-title
+	{
+		margin-top: -3px;
+		font-size: 12px;
+	}
+}
