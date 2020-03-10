@@ -8598,11 +8598,11 @@ img{
 }
 .club-laiya-dark-box
 {
-	margin-left: 100px;
+	/*margin-left: 100px;*/
 	position: absolute;
 	top: 130px;
-	width: 350px;
-	height: 300px;
+	/*width: 350px;
+	height: 300px;*/
 	background: #1E1E1E;
 }
 
@@ -8637,6 +8637,26 @@ img{
 }
 
 @media only screen and (max-width: 664px) {
+	.about-two-colors p
+	{
+		font-size: 12vw;
+	}
+	.main-slider .content p
+	{
+		font-size: 18px;
+	}
+	.main-slider .content h3
+	{
+		font-size: 12vw;
+	}
+
+	.main-slider .content
+	{
+		word-break: all;
+		height: 70vh;
+		top: 50px;
+	}
+
 	img.logo-img {
 		max-height: 55px;
 		top: 7px;
@@ -8814,6 +8834,23 @@ img{
 		width: 100%;
 	}
 } 
+
+/*ipad*/
+@media only screen and (width: 768px)
+{
+	.main-slider .content
+	{
+		top: -10px;
+	}
+
+}
+@media only screen and (width: 1024px)
+{
+	.main-header .logo-outer img
+	{
+		margin-left: 30px;
+	}
+}
 
 /*IF DESKTOP TOGGLE*/
 @media only screen and (min-width: 1024px) {
@@ -9105,7 +9142,7 @@ img{
 {
 	position: absolute;
 	top: 10px;
-	left: 250px;
+	/*left: 250px;*/
 	z-index: 1;
 	width: 100px;
 }
