@@ -142,6 +142,7 @@ p{
 	position:static;
 	max-width:1210px;
 	padding:0px 20px;
+	/*padding:0px 40px 10px 40px;*/
 	margin:0 auto;
 }
 
@@ -2229,7 +2230,31 @@ img{
 	text-align: center;
 	letter-spacing: 0.15em;
 	text-transform: uppercase;
+	/*color: #936510;*/
+	color: #DCCEAB;
+}
+
+.index .content p{
+	font-family: Karla;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 145%;
+	text-align: center;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
 	color: #936510;
+}
+
+.index .content h3{
+	font-family: OSTD, sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 70px;
+	line-height: 105%;
+	text-align: center;
+	letter-spacing: 0.01em;
+	color: #222D4B;
 }
 
 .main-slider .content h3{
@@ -2240,7 +2265,8 @@ img{
 	line-height: 105%;
 	text-align: center;
 	letter-spacing: 0.01em;
-	color: #222D4B;
+	/*color: #222D4B;*/
+	color: #FFFFFF;
 }
 
 .main-slider .content h2{
@@ -2506,6 +2532,7 @@ img{
 	border-radius:50%;
 	line-height:34px;
 	color:#ffffff;
+	background-color: #936510;
 	font-weight:400;
 	display:inline-block;
 	border:1px solid rgba(255,255,255,0.30);
@@ -2518,7 +2545,7 @@ img{
 
 .main-footer .logo-widget .social-icons li a:hover{
 	color:#ffffff;
-	border-color:#ffffff;
+	border-color:#936510;
 }
 
 /* Links Widget */
@@ -8629,14 +8656,79 @@ img{
 	font-family: Optima LT Std;
 	font-style: normal;
 	font-weight: normal;
-	font-size: 85.0536px;
+	/*font-size: 85.0536px;*/
+	font-size: 6vw;
 	line-height: 102px;
 	text-align: right;
 	letter-spacing: 0.01em;
 	text-transform: uppercase;
 }
 
+@media only screen and (width: 320px)
+{
+	.club-laiya-dark-box .club-center-button p
+	{
+		font-size: 10px;
+	}
+	.box-gold-border .club-button-inside-box
+	{
+		margin-left: 8px;
+	}
+	.box-gold-border 
+	{
+		word-break: break-all;
+	}
+	.map-section .club-button-inside-box
+	{
+		margin-left: 40px;
+	}
+
+	.dark-box .club-button-inside-box
+	{
+		margin-left: -15px;
+	}
+}
+@media only screen and (width: 360px)
+{
+	.box-gold-border .club-button-inside-box
+	{
+		margin-left: 30px;
+	}
+}
+@media (min-width: 576px) and (max-width: 767px)
+{
+
+}
+
 @media only screen and (max-width: 664px) {
+
+	.widget-content ul{
+		display: block;
+		text-align: center;
+	}
+
+	.index .content p{
+	font-family: Karla;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 145%;
+	text-align: center;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	color: #936510;
+	}
+
+	.index .content h3{
+		font-family: OSTD, sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 70px;
+		line-height: 105%;
+		text-align: center;
+		letter-spacing: 0.01em;
+		color: #222D4B;
+	}
 	.about-two-colors p
 	{
 		font-size: 12vw;
@@ -8836,8 +8928,37 @@ img{
 } 
 
 /*ipad*/
-@media only screen and (width: 768px)
+@media (min-width: 665px) and (max-width: 1023px)
 {
+	.index .content p
+	{
+		font-family: Karla;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 145%;
+		text-align: center;
+		letter-spacing: 0.15em;
+		text-transform: uppercase;
+		color: #936510;
+	}
+
+	.index .content h3
+	{
+		font-family: OSTD, sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 70px;
+		line-height: 105%;
+		text-align: center;
+		letter-spacing: 0.01em;
+		color: #222D4B;
+	}
+	.main-slider .content
+	{
+		height: 70vh;
+	}
+
 	.main-slider .content
 	{
 		top: -10px;
@@ -8846,9 +8967,44 @@ img{
 }
 @media only screen and (width: 1024px)
 {
+	.index .content p
+	{
+		font-family: Karla;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 145%;
+		text-align: center;
+		letter-spacing: 0.15em;
+		text-transform: uppercase;
+		color: #936510;
+	}
+
+	.index .content h3
+	{
+		font-family: OSTD, sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 70px;
+		line-height: 105%;
+		text-align: center;
+		letter-spacing: 0.01em;
+		color: #222D4B;
+	}
 	.main-header .logo-outer img
 	{
 		margin-left: 30px;
+	}
+}
+
+@media (max-width: 990px) and (min-width: 375px)
+{
+
+	.club-button-inside-box
+	{
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
 	}
 }
 
@@ -9206,6 +9362,24 @@ h3.sub-heading-txt {
 	text-transform: uppercase;
 	color: #FFFFFF;
 	letter-spacing: 0.22em;
+}
+.club-button-inside-box p
+{
+	font-family: Karla;
+	font-style: normal;
+	font-size: 12px;
+	line-height: 171.9%;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	letter-spacing: 0.22em;	
+}
+.club-button-inside-box
+{
+	margin-top: 50px;
+	background: #222D4B;
+	width: 192px;
+	height: 45px;
+	padding: 12px 35px;
 }
 
 .club-center-button
@@ -9692,5 +9866,9 @@ input[type=checkbox]:checked:disabled + label:before {
 	font-weight: bold; 
 	font-style: normal; 
 	font-size: 16px;
+}
+
+.border-bottom {
+	border-bottom: 1px solid #000;
 }
 
