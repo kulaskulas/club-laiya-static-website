@@ -8666,6 +8666,10 @@ img{
 
 @media only screen and (width: 320px)
 {
+	.social-icons-flex
+	{
+		margin-left: 30px !important;
+	}
 	.club-laiya-dark-box .club-center-button p
 	{
 		font-size: 10px;
@@ -8688,19 +8692,57 @@ img{
 		margin-left: -15px;
 	}
 }
+
 @media only screen and (width: 360px)
 {
+	.social-icons-flex
+	{
+		margin-left: 50px !important;
+	}
+	.map-section .club-button-inside-box
+	{
+		margin-left: 60px;
+	}
 	.box-gold-border .club-button-inside-box
 	{
 		margin-left: 30px;
 	}
 }
-@media (min-width: 576px) and (max-width: 767px)
-{
 
+@media (height: 667px) and (width: 375px)
+{
+	.social-icons-flex
+	{
+		margin-left: 50px !important;
+	}
+}
+
+@media (height: 812px) and (width: 375px)
+{
+	.social-icons-flex
+	{
+		margin-left: 50px !important;
+	}
+	.main-slider .slider-box .content
+	{
+		top: 100px;
+	}
+}
+
+@media (height: 823px) and (width: 411px)
+{
+	.main-slider .slider-box .content
+	{
+		top: 100px;
+	}
 }
 
 @media only screen and (max-width: 664px) {
+	.social-icons-flex
+	{
+		width: 100%;
+		margin-left: 70px;
+	}
 
 	.widget-content ul{
 		display: block;
@@ -8930,6 +8972,11 @@ img{
 /*ipad*/
 @media (min-width: 665px) and (max-width: 1023px)
 {
+	.social-icons-flex
+	{
+		margin-left: 130px;
+	}
+
 	.index .content p
 	{
 		font-family: Karla;
@@ -8961,7 +9008,7 @@ img{
 
 	.main-slider .content
 	{
-		top: -10px;
+		top: 120px;
 	}
 
 }
@@ -9363,6 +9410,36 @@ h3.sub-heading-txt {
 	color: #FFFFFF;
 	letter-spacing: 0.22em;
 }
+
+.club-center-button a
+{
+	color: #FFFFFF;
+}
+
+.club-button-inside-box a
+{
+	color: #FFFFFF;
+}
+
+.exclusive-updates-section a
+{
+	color: #222D4B;
+}
+.exclusive-updates-section .club-center-button a
+{
+	color: #FFFFFF;
+}
+
+#projects a
+{
+	color: #000000;
+}
+
+#about_us a
+{
+	color: #000000;
+}
+
 .club-button-inside-box p
 {
 	font-family: Karla;
